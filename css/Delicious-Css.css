@@ -1,0 +1,77 @@
+body{
+	margin: 0px;padding: 0px;
+	background: beige;
+}
+a:focus{
+	outline: none;
+}
+#myCarousel{
+	width: 120%;
+	height:auto;
+}
+#jumbotron1{
+	height:600px;
+	background:url(../img/bg/fond-livre.jpg) no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+#lunbo-left{
+	margin-right: -50px;
+}
+#head_video{
+	top: -20px;left: -70px;
+	position: relative;
+}
+#video_2{
+	border-radius:1em;
+	border-color: transparent;
+	border:2px solid white;
+	width: 105%; height: auto;
+	background-color: black;
+}
+
+
+.kuaizi{
+	width: 80px;height: 80px;right: 30px;top: 20px;position: absolute;
+}
+.kuaizi:hover{
+	transform: rotate(45deg);transition: 0.5s;
+}
+
+#textOutput{
+	width: 80%;
+	height: 20%;
+	border: 2px solid #f5d5c7;
+	overflow: scroll;
+}
+#textInput{
+	width:800px;height: 40px;
+}
+#enter{
+	height: 38px;width: 38px;text-align: justify;
+}
+
+*{margin: 0;padding: 0;}
+
+#video_tool{height: 300px;width: 95%;margin: auto;margin-top: 80px;}
+#video_tool_video{height: 250px;width:22%;margin-top: 25px;border: 2px solid white;
+float: left;margin-left: 2%;margin-right: 3%;float: left;}
+.video_tool_tool{height: 230px;width:230px;float: left;margin-left: 2%;margin-right: 2%;margin-top: 35px;position: relative;
+}
+.video_tool_pic_text{height: 460px;width:230px;position: absolute;}
+.video_tool_tool_pic{height: 230px;width:230px;}
+.video_tool_tool_text{height: 230px;width:230px;bottom: 0;font-size: 14px;font-family: "新宋体"; color: white;font-weight: bold;}
+#vedio_1{height: auto;width: 100%;margin-top: 20%;}
+.video_tool_img{height: 230px;width: 230px;border: 2px solid beige; border-radius: 1em;}
+
+/*当季水果蔬菜布局*/
+#vagetable{height: 300px;width: 95%;margin: auto;}
+#vagetable_1{height: 240px;width: 960px;margin:20px auto;position: relative;overflow: hidden;}
+#vagetable_1 ul li img{height: 240px;width: auto; float: left;margin: 0;padding: 0;}
+#vagetable_1_ul {position: absolute;left: 0;top: 0;width: 1920px;}
+#vagetable_1 ul li{height: 240px;width: 240px;list-style: none;float: left;}
+
+#video_2{
+	margin-top: 80px;
+}
+
